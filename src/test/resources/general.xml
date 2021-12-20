@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Generate Tests" parallel="classes" thread-count="1">
+    <test name="chrome">
+        <parameter name="driver" value="chrome"></parameter>
+        <classes>
+            <class name="com.ngoet.test.example.ExampleTest">
+                <methods>
+                    <include name="loginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="firefox">
+        <parameter name="driver" value="firefox"></parameter>
+        <classes>
+            <class name="com.ngoet.test.example.ExampleTest">
+                <methods>
+                    <include name="loginPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
