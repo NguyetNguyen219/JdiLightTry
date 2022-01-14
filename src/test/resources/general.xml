@@ -4,7 +4,7 @@
     <test name="chrome">
         <parameter name="driver" value="chrome"></parameter>
         <classes>
-            <class name="com.ngoet.test.example.ExampleTest">
+            <class name="com.ngoet.tests.example.LoginTest">
                 <methods>
                     <include name="loginPage"/>
                 </methods>
@@ -14,7 +14,7 @@
     <test name="firefox">
         <parameter name="driver" value="firefox"></parameter>
         <classes>
-            <class name="com.ngoet.test.example.ExampleTest">
+            <class name="com.ngoet.tests.example.LoginTest">
                 <methods>
                     <include name="loginPage"/>
                 </methods>
